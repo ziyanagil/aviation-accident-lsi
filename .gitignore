@@ -1,6 +1,5 @@
-# Dataset mentah & hasil ekstraksi/cache berukuran besar
-data/raw/
-data/processed/
+# Catatan lokal panduan push (jangan dipush)
+pushdata.md
 
 # Hasil keluaran yang digenerate ulang (pertahankan struktur folder via .gitkeep)
 output/figures/*
