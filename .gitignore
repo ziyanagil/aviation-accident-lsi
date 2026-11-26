@@ -1,0 +1,21 @@
+# Dataset mentah & hasil ekstraksi/cache berukuran besar
+data/raw/
+data/processed/
+
+# Hasil keluaran yang digenerate ulang (pertahankan struktur folder via .gitkeep)
+output/figures/*
+!output/figures/.gitkeep
+output/tables/*
+!output/tables/.gitkeep
+output/logs/*
+!output/logs/.gitkeep
+
+# Virtual environment & cache Python/pytest
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Metadata OS
+.DS_Store
